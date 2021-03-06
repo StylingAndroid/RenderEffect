@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RenderEffect</string>
+    <string name="blur">Blur</string>
+    <string name="x_blur">X Blur</string>
+    <string name="y_blur">Y Blur</string>
+    <string name="fullscreen">Fullscreen</string>
 </resources>

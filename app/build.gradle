@@ -37,8 +37,8 @@ dependencies {
     implementation Libraries.ktxFragment
     implementation Libraries.material
     implementation Libraries.constraintLayout
-    implementation Libraries.navigationFragment
-    implementation Libraries.navigationUi
+    implementation Libraries.lifecycleViewmodel
+    implementation Libraries.lifecycleLivedata
     implementation Libraries.hilt
     implementation Libraries.hiltLifecycleViewmodel
     kapt Libraries.hiltAndroidCompiler

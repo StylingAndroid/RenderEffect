@@ -4,4 +4,6 @@
     <string name="x_blur">X Blur</string>
     <string name="y_blur">Y Blur</string>
     <string name="fullscreen">Fullscreen</string>
+    <string name="desaturate">Desaturate</string>
+    <string name="saturation">Saturation</string>
 </resources>

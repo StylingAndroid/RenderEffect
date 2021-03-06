@@ -28,9 +28,11 @@ class MainActivity : AppCompatActivity() {
         binding.xRadius.bind(viewModel.radiusX, viewModel::setRadiusX)
         binding.yRadius.bind(viewModel.radiusY, viewModel::setRadiusY)
         binding.blurToggle.bind(viewModel.blur, viewModel::setBlurred)
+        binding.saturation.bind(viewModel.saturation, viewModel::setSaturation)
+        binding.desaturateToggle.bind(viewModel.desaturate, viewModel::setDesaturate)
         binding.fullscreenToggle.bind(viewModel.fullscreen, viewModel::setFullscreen)
 
-        viewModel.fullscreenEffectFlow.onEach { (fullscreen, effect) ->
+        viewModel.effectFlow.onEach { (fullscreen, effect) ->
             if (fullscreen) {
                 binding.root.setRenderEffect(effect)
                 binding.image.setRenderEffect(null)

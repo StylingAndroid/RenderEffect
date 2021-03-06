@@ -1,4 +1,4 @@
-const val kotlinVersion = "1.5.0-M1"
+const val kotlinVersion = "1.4.31"
 const val hiltVersion = "2.33-beta"
 
 object BuildPlugins {
@@ -26,9 +26,9 @@ object BuildPlugins {
 }
 
 object AndroidSdk {
-    const val min = "S"
+    const val min = 31
     const val compile = "android-S"
-    const val target = "S"
+    const val target = 31
 }
 
 

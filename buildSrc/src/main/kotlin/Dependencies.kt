@@ -3,7 +3,7 @@ const val hiltVersion = "2.33-beta"
 
 object BuildPlugins {
     object Version {
-        const val androidBuildToolsVersion = "7.0.0-alpha08"
+        const val androidBuildToolsVersion = "7.0.0-alpha09"
         const val versionsVersion = "0.33.0"
         const val detektVersion = "1.14.1"
         const val ktlintVersion = "9.4.0"
@@ -35,10 +35,10 @@ object AndroidSdk {
 object Libraries {
     private object Versions {
         const val appCompat = "1.3.0-beta01"
-        const val ktxActivity = "1.3.0-alpha03"
-        const val ktxFragment = "1.3.0"
+        const val ktxActivity = "1.3.0-alpha04"
+        const val ktxFragment = "1.3.1"
         const val material = "1.4.0-alpha01"
-        const val constraintLayout = "2.1.0-alpha1"
+        const val constraintLayout = "2.1.0-beta01"
         const val lifecycle = "2.3.0"
         const val hilt = "1.0.0-alpha03"
 

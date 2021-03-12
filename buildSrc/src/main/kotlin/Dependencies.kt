@@ -26,9 +26,9 @@ object BuildPlugins {
 }
 
 object AndroidSdk {
-    const val min = 31
+    const val min = "S"
     const val compile = "android-S"
-    const val target = 31
+    const val target = "S"
 }
 
 
